@@ -8,7 +8,7 @@ function createSideBar(){
 </div> 
 <ul class="links">
     <li > 
-        <a class="active link d-block  c-black fs-14 rad-6 p-10 " href="index.html">
+        <a class=" link d-block  c-black fs-14 rad-6 p-10 " href="index.html">
             <i class="fa-solid fa-chart-line fa-fw"></i>
             <span class="link-text">Dashboard</span>
         </a>
@@ -60,3 +60,20 @@ function createSideBar(){
 }
 
 createSideBar()
+
+
+
+
+
+let links =document.querySelectorAll(".link");
+
+let currentlocation=window.location.href;
+for(let i = 0;i < currentlocation.length ;i++){
+
+    
+    if (links[i].href === currentlocation){
+       
+        links[i].classList.add("active")
+   
+}
+}

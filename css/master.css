@@ -86,7 +86,7 @@ a{
 }
 
 .page{
-    background-color: rgb(214, 151, 151);
+    background-color:  #f1f5f9;;
     min-height: 100vh;
 }
 
@@ -364,7 +364,7 @@ a{
 }
 
 .yearly-target .projects .progres{
-    background-color:rgb(245, 158, 11); 
+    background-color:rgba(245, 158, 11,.2); 
    
 }
 
